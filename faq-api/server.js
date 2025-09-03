@@ -15,11 +15,10 @@ const faqs = {
   student_life: require("./data/faq_student_life.json"),
   library: require("./data/faq_library.json"),
   exams: require("./data/faq_exams.json"),
-  graduation: require("./data/faq_graduation.json"),
-  tech_support: require("./data/faq_tech_support.json")
+
 };
 
-// Dynamic FAQ API
+// Dynamic FAQ endpoint
 app.get("/faq/:category", (req, res) => {
   const category = req.params.category.toLowerCase();
   const q = req.query.question?.toLowerCase();
@@ -28,11 +27,17 @@ app.get("/faq/:category", (req, res) => {
     return res.json({ answer: "Category not found." });
   }
 
-  const results = q
-    ? faqs[category].filter(f => f.question.toLowerCase().includes(q))
-    : faqs[category];
+  if (!q) {
+    // If no question query, return all FAQs in that category
+    return res.json(faqs[category]);
+  }
 
-  res.json(results.length ? results : [{ answer: "Sorry, I don’t have that information yet." }]);
+  // Find matching question
+  const result = faqs[category].find(f =>
+    f.question.toLowerCase().includes(q)
+  );
+
+  res.json(result || { answer: "Sorry, I don’t have that information yet." });
 });
 
 app.listen(port, () => {
