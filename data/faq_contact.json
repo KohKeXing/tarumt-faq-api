@@ -1,18 +1,18 @@
 [
   {
-    "question": "Where are TAR UMT campuses located?",
-    "answer": "TAR UMT has multiple campuses across Malaysia:\n\n- **Main Campus (Kuala Lumpur, Setapak)**: [Google Maps](https://goo.gl/maps/4H2YzX7Z6dK2)\n- **Penang Branch (Tanjung Bungah)**: [Google Maps](https://goo.gl/maps/9v3F3z7r6r92)\n- **Perak Branch (Kampar)**: [Google Maps](https://goo.gl/maps/2V7g5Jk8s9v)\n- **Johor Branch (Segamat)**: [Google Maps](https://goo.gl/maps/2V7g5Jk8s9v)\n- **Pahang Branch (Kuantan)**: [Google Maps](https://goo.gl/maps/2V7g5Jk8s9v)\n- **Sabah Branch (Kota Kinabalu)**: [Google Maps](https://goo.gl/maps/2V7g5Jk8s9v)"
+    "question": "Where is TAR UMT located?",
+    "answer": "Please select the campus to see the map: main, penang, kampar, johor, kuantan, kk"
   },
   {
-    "question": "How can I contact TAR UMT campuses?",
-    "answer": "Contact details for each campus:\n\n- **Main Campus (Kuala Lumpur, Setapak)**:\n  - Phone: +603-4145 0123\n  - Email: info@tarc.edu.my\n  - Website: [https://www.tarc.edu.my](https://www.tarc.edu.my)\n\n- **Penang Branch (Tanjung Bungah)**:\n  - Phone: +604-899 5230\n  - Email: penang@tarc.edu.my\n  - Website: [https://penang.tarc.edu.my](https://penang.tarc.edu.my)\n\n- **Perak Branch (Kampar)**:\n  - Phone: +605-466 0388\n  - Email: perak@tarc.edu.my\n  - Website: [https://kampar.tarc.edu.my](https://kampar.tarc.edu.my)\n\n- **Johor Branch (Segamat)**:\n  - Phone: +607-931 1000\n  - Email: johor@tarc.edu.my\n  - Website: [https://johor.tarc.edu.my](https://johor.tarc.edu.my)\n\n- **Pahang Branch (Kuantan)**:\n  - Phone: +609-573 8171\n  - Email: pahang@tarc.edu.my\n  - Website: [https://pahang.tarc.edu.my](https://pahang.tarc.edu.my)\n\n- **Sabah Branch (Kota Kinabalu)**:\n  - Phone: +6088-348 080\n  - Email: sabah@tarc.edu.my\n  - Website: [https://sabah.tarc.edu.my](https://sabah.tarc.edu.my)"
+    "question": "How can I get to the campus by public transport?",
+    "answer": "Use the Botpress map action to get directions."
+  },
+  {
+    "question": "How do I contact TAR UMT?",
+    "answer": "Main campus: +603-4145 0123, Email: info@tarc.edu.my, Website: https://www.tarc.edu.my"
   },
   {
     "question": "What are the office hours?",
-    "answer": "Administrative offices hours for all campuses:\n\n- Monday to Friday: 8:00 AM - 5:00 PM\n- Saturday: 8:00 AM - 1:00 PM\n- Closed on Sundays and public holidays"
-  },
-  {
-    "question": "How do I get to the TAR UMT campuses by public transport?",
-    "answer": "Public transport options for each campus:\n\n- **Main Campus (Kuala Lumpur, Setapak)**:\n  - LRT: Wangsa Maju Station (5 min walk)\n  - Bus: Multiple routes to Setapak area\n  - Taxi/Grab: Widely available\n  - Google Maps: https://goo.gl/maps/4H2YzX7Z6dK2\n\n- **Penang Branch (Tanjung Bungah)**:\n  - Bus: Rapid Penang routes 101, 102, 103, 104\n  - Taxi/Grab: Widely available\n  - Google Maps: https://goo.gl/maps/9v3F3z7r6r92\n\n- **Perak Branch (Kampar)**:\n  - Bus: Kampar local bus services to campus area\n  - Taxi/Grab: Widely available\n  - Google Maps: https://goo.gl/maps/2V7g5Jk8s9v\n\n- **Johor Branch (Segamat)**:\n  - Bus: Johor Bahru intercity buses to Segamat, then taxi/Grab\n  - Taxi/Grab: Widely available\n  - Google Maps: https://goo.gl/maps/2V7g5Jk8s9v\n\n- **Pahang Branch (Kuantan)**:\n  - Bus: Kuantan local bus or express bus to campus area\n  - Taxi/Grab: Widely available\n  - Google Maps: https://goo.gl/maps/2V7g5Jk8s9v\n\n- **Sabah Branch (Kota Kinabalu)**:\n  - Bus: Kota Kinabalu local bus routes\n  - Taxi/Grab: Widely available\n  - Google Maps: https://goo.gl/maps/2V7g5Jk8s9v"
+    "answer": "Administrative offices: Monday-Friday 8:00 AM - 5:00 PM, Saturday: 8:00 AM - 1:00 PM, Closed on Sundays and public holidays"
   }
 ]
