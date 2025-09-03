@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 3000;
 
-// FAQ 数据库 (你可以先放在这里，或者拆 JSON 文件)
+// Load all FAQ JSON files
 const faqs = {
   admission: require("./data/faq_admission.json"),
   courses: require("./data/faq_courses.json"),
@@ -19,7 +19,7 @@ const faqs = {
   tech_support: require("./data/faq_tech_support.json")
 };
 
-// 动态 API
+// Dynamic FAQ API
 app.get("/faq/:category", (req, res) => {
   const category = req.params.category.toLowerCase();
   const q = req.query.question?.toLowerCase();
@@ -28,12 +28,11 @@ app.get("/faq/:category", (req, res) => {
     return res.json({ answer: "Category not found." });
   }
 
-  // 找到对应问题
-  const result = faqs[category].find(f =>
-    f.question.toLowerCase().includes(q)
-  );
+  const results = q
+    ? faqs[category].filter(f => f.question.toLowerCase().includes(q))
+    : faqs[category];
 
-  res.json(result || { answer: "Sorry, I don’t have that information yet." });
+  res.json(results.length ? results : [{ answer: "Sorry, I don’t have that information yet." }]);
 });
 
 app.listen(port, () => {
