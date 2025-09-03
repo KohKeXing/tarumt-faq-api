@@ -1,0 +1,22 @@
+[
+  {
+    "question": "When does the semester start and end?",
+    "answer": "Academic calendar varies by intake:\n- May Intake: May-August (Semester 1), September-December (Semester 2)\n- October Intake: October-January (Semester 1), February-May (Semester 2)\n\nAdd these dates to Google Calendar:\n- [May Intake Semester 1](https://calendar.google.com/calendar/r/eventedit?text=May+Intake+Semester+1&dates=20250501T080000/20250831T170000)\n- [May Intake Semester 2](https://calendar.google.com/calendar/r/eventedit?text=May+Intake+Semester+2&dates=20250901T080000/20251231T170000)\n- [October Intake Semester 1](https://calendar.google.com/calendar/r/eventedit?text=October+Intake+Semester+1&dates=20251001T080000/20260131T170000)\n- [October Intake Semester 2](https://calendar.google.com/calendar/r/eventedit?text=October+Intake+Semester+2&dates=20260201T080000/20260531T170000)"
+  },
+  {
+    "question": "When are the examination periods?",
+    "answer": "Final examinations are typically held in the last 2 weeks of each semester.\nAdd exam periods to your Google Calendar:\n- [May Intake Exams](https://calendar.google.com/calendar/r/eventedit?text=May+Intake+Exams&dates=20250818T080000/20250831T170000)\n- [October Intake Exams](https://calendar.google.com/calendar/r/eventedit?text=October+Intake+Exams&dates=20260118T080000/20260131T170000)"
+  },
+  {
+    "question": "What are the public holidays observed by the university?",
+    "answer": "TAR UMT follows Malaysian public holidays. Academic calendar is updated annually on the student portal.\nYou can also subscribe to [Malaysian Public Holidays Calendar](https://calendar.google.com/calendar/u/0?cid=en.malaysian%23holiday%40group.v.calendar.google.com) for reminders."
+  },
+  {
+    "question": "When is the mid-semester break?",
+    "answer": "Mid-semester breaks are usually 1 week long, scheduled in the middle of each semester.\nAdd to Google Calendar:\n- [May Intake Mid-Semester Break](https://calendar.google.com/calendar/r/eventedit?text=May+Intake+Mid-Semester+Break&dates=20250715T080000/20250721T170000)\n- [October Intake Mid-Semester Break](https://calendar.google.com/calendar/r/eventedit?text=October+Intake+Mid-Semester+Break&dates=20251215T080000/20251221T170000)"
+  },
+  {
+    "question": "How many semesters are there in a year?",
+    "answer": "There are 2 main semesters per year, with an optional short semester during semester breaks."
+  }
+]
